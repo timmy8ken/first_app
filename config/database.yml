@@ -16,7 +16,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
+  adapter: mysql
+  encodeing: utf8
+  database: first_app
+  username: timmy8ken
+  password: st1nk3rs
+  host: web.timmy8ken.com
   timeout: 5000
